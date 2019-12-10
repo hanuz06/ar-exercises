@@ -8,3 +8,9 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+@total_revenue = Store.sum('annual_revenue')
+@average_revenue = Store.average('annual_revenue')
+@store_numbers = Store.where
+
+puts "Total revenue is #{@total_revenue}"
+puts "Average_revenue revenue is #{@average_revenue}"
